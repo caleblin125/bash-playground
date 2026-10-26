@@ -1,0 +1,9 @@
+# node     state    cpu_load  cores  mem_used_gb  mem_total_gb
+node01     RUNNING  72        32     98           128
+node02     RUNNING  95        32     120          128
+node03     IDLE     3         32     6            128
+node04     FAILED   0         32     0            128
+node05     RUNNING  41        64     150          256
+node06     DRAINING 12        64     40           256
+node07     RUNNING  88        64     201          256
+node08     IDLE     1         16     2            64

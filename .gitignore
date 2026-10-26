@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# bash-playground: the framework lives in lib/ and the sample log is mock data
+!/lib/
+!/data/sample.log

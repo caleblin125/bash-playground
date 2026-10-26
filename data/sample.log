@@ -1,0 +1,13 @@
+2026-10-20 08:00:01 INFO  scheduler: starting up
+2026-10-20 08:00:02 INFO  node01: health check passed
+2026-10-20 08:00:02 WARN  node02: cpu temperature 81C
+2026-10-20 08:00:05 INFO  job 1001 started on node01,node02
+2026-10-20 08:01:17 ERROR node04: heartbeat lost
+2026-10-20 08:01:18 WARN  node04: marked DOWN
+2026-10-20 08:03:44 INFO  job 1005 completed in 72s
+2026-10-20 08:05:10 ERROR job 1006: FAILED with exit code 137 (out of memory)
+2026-10-20 08:05:11 WARN  node06: draining for maintenance
+2026-10-20 08:06:00 INFO  backup: snapshot complete
+2026-10-20 08:07:30 ERROR job 1010: FAILED with exit code 2
+2026-10-20 08:09:00 WARN  node02: cpu temperature 84C
+2026-10-20 08:10:00 INFO  scheduler: 4 running, 4 pending

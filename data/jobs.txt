@@ -1,0 +1,13 @@
+JOBID  USER    PARTITION  NAME            STATE      TIME      NODES
+1001   alice   gpu        train-resnet    RUNNING    02:14:09  2
+1002   bob     cpu        md-sim          RUNNING    11:02:45  8
+1003   carol   cpu        assemble-genome PENDING    00:00:00  4
+1004   alice   gpu        eval-model      PENDING    00:00:00  1
+1005   dave    debug      hello-mpi       COMPLETED  00:01:12  2
+1006   erin    cpu        weather-wrf     FAILED     00:47:31  16
+1007   bob     cpu        md-analysis     PENDING    00:00:00  1
+1008   frank   gpu        llm-finetune    RUNNING    05:33:20  4
+1009   carol   cpu        blast-search    COMPLETED  01:20:02  1
+1010   erin    debug      test-build      FAILED     00:00:09  1
+1011   dave    cpu        cfd-mesh        RUNNING    00:12:56  2
+1012   alice   gpu        hp-sweep        PENDING    00:00:00  2
